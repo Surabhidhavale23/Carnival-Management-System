@@ -6,8 +6,8 @@ from datetime import datetime
 from flask_login import LoginManager, login_user, logout_user, login_required, UserMixin
 
 app = Flask(__name__)
-app.secret_key = 'pratik_sonune'
-app.config['SQLALCHEMY_DATABASE_URI']='postgresql://prat_user:pratik@localhost/fest'
+app.secret_key = 'surbhi-dhavale'
+app.config['SQLALCHEMY_DATABASE_URI']='postgresql://prat_user:surbhi@localhost/fest'
 
 db=SQLAlchemy(app)
 login_manager = LoginManager(app)
